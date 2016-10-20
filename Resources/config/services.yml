@@ -1,0 +1,7 @@
+# app/config/services.yml
+services:
+    antiadblock.twig_extension:
+        class: AppBundle\Twig\AntiAdblockExtension
+        public: false
+        tags:
+            - { name: twig.extension }
